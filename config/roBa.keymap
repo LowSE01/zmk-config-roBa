@@ -96,11 +96,13 @@
 
         MOUSE {
             bindings = <
-&trans          &trans  &trans  &trans  &trans                      &trans  &kp PAGE_UP    &trans     &trans  &trans
+&trans          &trans  &trans  &trans  &trans                      &trans  &kp PAGE_UP    &kp HOME   &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK      &mkp RCLK  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp PAGE_DOWN  &trans     &trans  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp PAGE_DOWN  &kp END    &trans  &kp RIGHT_SHIFT
 &trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans                                    &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         ARROW {
@@ -111,7 +113,7 @@
 &trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans                                      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         SCROLL {
