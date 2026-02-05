@@ -80,7 +80,7 @@
             bindings = <
 &kp F1          &kp F2  &kp F3  &kp F4   &kp F5                       &kp GRAVE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS         &kp EQUAL
 &kp F6          &kp F7  &kp F8  &kp F9   &kp F10  &trans      &none   &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SINGLE_QUOTE  &kp BACKSLASH
-&kp LEFT_SHIFT  &none   &none   &kp F11  &kp F12  &none       &none   &none         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none             &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &none   &none   &kp F11  &kp F12  &none       &none   &kp CARET     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none             &kp RIGHT_SHIFT
 &none           &none   &none   &trans   &trans   &trans      &trans  &trans                                                                       &none
             >;
         };
